@@ -35,14 +35,14 @@ public class Toolbox573 {
      * Returns value multiplied by 5.
      */
     public static int scale(int value) {
-        return value + 5;
+        return value*5;
     }
 
     /**
      * Returns the area of a rectangle with the given width and height.
      */
     public static int rectArea(int width, int height) {
-        return 2 * (width + height);
+        return (width  * height);
     }
 
     /**
